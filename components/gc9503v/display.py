@@ -143,7 +143,6 @@ CONFIG_SCHEMA = cv.All(
             }
     ),
     only_on_variant(supported=[const.VARIANT_ESP32S3]),
-    ////cv.only_with_esp_idf,
 )
 
 async def to_code(config):
